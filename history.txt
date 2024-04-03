@@ -1,0 +1,30 @@
+    1  history 
+    2  mkdir examen372
+    3  cd examen372/
+    4  touch create.sh
+    5  echo '#! /bin/bash' > create.sh
+    6  cd ..
+    7  cd examen372/
+    8  ./create.sh 
+    9  ./create.sh 
+   10  ./create.sh 
+   11  ./create.sh 
+   12  ./create.sh 
+   13  ./create.sh 
+   14  ./create.sh 
+   15  ./create.sh 
+   16  ./create.sh 
+   17  cd ..
+   18  cd instrucciones/
+   19  mv examen372.md README.md
+   20  ls
+   21  mv README.md ~/Desktop/examen372/
+   22  cd ..
+   23  cd examen372/
+   24  history > Historial.txt
+   25  python -m venv virtual
+   26  source ./virtual/Scripts/activate
+   27  pip install jupyterlab
+   28  jupyter lab
+   29  deactivate
+   30  history > history.txt
